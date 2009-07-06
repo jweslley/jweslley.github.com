@@ -1,1 +1,20 @@
+FEATURES
+--------------------------------------------------------
+- use fluid css
 
+
+TODO
+--------------------------------------------------------
+- use fluid css
+- about page
+- archives page
+- contact page
+- reasearch page
+- projects page
+- resume page
+- publish a first post: Blogging Like a Hacker
+
+
+BUGS
+--------------------------------------------------------
+- bad visualization on lower resolutions, use relative.
