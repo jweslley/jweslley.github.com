@@ -1,3 +1,4 @@
+
 .clear {
   clear: both;
 }
@@ -14,9 +15,10 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
-a:hover, #sidebar a:hover, #content a {
+a:hover, #sidebar a:hover, #home a, #post-content a {
   color: #b40;
 }
+
 #site {
   width: 850px;
   margin: auto;
@@ -24,27 +26,55 @@ a:hover, #sidebar a:hover, #content a {
 
 #subscribe {
   float: right;
-  margin: 20px;
+  bottom: 4px;
+  position: relative;
 }
 
-h1 {
-  margin: 0;
-  padding: 20px;
+h2 {
+  font-family: georgia, serif;
 }
 
-h1 a {
-  text-decoration: none;
-  color: inherit;
+h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
 }
 
 #slogan {
   margin: 15px;
 }
 
+.highlight pre {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+#post {
+  margin-bottom: 30px;
+}
+
+#post-content {
+  width: 850px;
+  margin-bottom: 30px;
+}
+
+#related {
+  margin-bottom: 30px;
+}
+
+#disqus_thread {
+  margin-bottom: 130px;
+}
+
+#posts p {
+  margin: 5px 0 25px 0;
+}
+
+/* sidebar */
 #sidebar {
   width: 160px;
   padding: 10px 20px 20px 20px;
-  border-left: 5px solid #eee;
+  border-left: 2px solid #eee;
   float: right;
 }
 #sidebar a {
@@ -69,42 +99,70 @@ h1 a {
 }
 #sidebar  {
 }
+/* end of sidebar */
 
-#content {
+/* home */
+#home {
   width: 600px;
   padding: 0 20px 20px 20px;
 }
-#content ul {
+#home ul {
   list-style-type: none;
   padding: 0;
 }
-#content li {
+#home li {
   margin-bottom: 10px;
 }
+/* end of home */
 
-h3 {
-  margin: 0 0 10px 0;
-  padding: 0;
+/* topmenu */
+#topmenu {
+  width: 850px;
+  margin: 0 auto;
+  font-family: arial;
+  border-bottom: 1px solid #eee;
 }
+#topmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  display: inline-block;
+}
+#topmenu ul li {
+	display: block;
+	float: left;
+}
+#topmenu ul li a {
+  font-size: 13px;
+  margin-right: 20px;
+  padding: 12px 0px 4px;
+  text-decoration: none;
+  border-bottom: 4px solid #fff;
+  color: #999;
+}
+#topmenu ul li a:hover {
+  border-bottom: 4px solid #eee;
+  color: #000;
+}
+/* end of topmenu */
 
-.highlight pre {
-  background: #eee;
-  border: 1px solid #ccc;
-  padding: 15px;
+/* post-navigation */
+#post-navigation {
+  width: 850px;
+  margin: 20px 0;
+	text-align: center;
+  font-size: 75%;
+  font-family: arial;
+  padding: 4px;
+  color: #999;
+  background: #f3f3f3;
+  border-radius: 2px;
 }
+#post-navigation a {
+  color: #999;
+}
+#post-navigation a:hover {
+  color: #069;
+}
+/* end of post-navigation */
 
-#post {
-  margin-bottom: 30px;
-}
-
-#disqus_thread {
-  margin-bottom: 130px;
-}
-
-#related {
-  margin-bottom: 30px;
-}
-
-#posts p {
-  margin: 5px 0 25px 0;
-}

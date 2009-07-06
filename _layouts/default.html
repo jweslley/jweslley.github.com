@@ -3,90 +3,23 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   <head>
-     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-     <title>
-       {% if page.title %}
-         {{ page.title }} //
-       {% endif %}
-       Jonhnny Weslley
-     </title>
-     <meta name="author" content="Elijah Miller" />
-     <link href="http://feeds2.feedburner.com/jweslley" rel="alternate" title="Jonhnny Weslley" type="application/atom+xml" />
-
-     <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-     <link rel="stylesheet" href="/css/default.css" type="text/css" media="screen, projection" />
+    {% include head.html %}
   </head>
   <body>
 
-    <div id="site">
-      <a id="subscribe" href="http://feeds2.feedburner.com/jweslley"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></a>
+  	<div id="site">
 
-      <h1><a href="/">Jonhnny Weslley</a></h1>
-      
+      {% include top_menu.html %}
+
+      {% include sidebar.html %}
+
+      {{ content }}
+
       <div class="clear"></div>
-      
-      <div id="sidebar">
-        <h3>Me</h3>
-        <dl id="contact">
-          <dt>Name</dt>
-          <dd>Jonhnny Weslley / jweslley</dd>
 
-          <dt>Email</dt>
-          <dd><a href="mailto:jonhnnyweslley@gmail.com">jonhnnyweslley@gmail.com</a></dd>
-
-          <dt>About</dt>
-          <dd><a href="http://sites.google.com/site/jonhnnyweslley/">About</a></dd>
-        </dl>
-        <h3>And then some</h3>
-        <ul id="profiles">
-          <li><a href="http://twitter.com/jweslley">Twitter</a></li>
-
-          <li><a href="http://github.com/jweslley">GitHub</a></li>
-
-          <li><a href="http://www.linkedin.com/in/jweslley">LinkedIn</a></li>
-        </ul>
-        <h3>Links</h3>
-        <ul id="links">
-          <li><a href="http://www.antiifcampaign.com">Anti-If Campaign</a></li>
-        </ul>  
-
-      </div>
-      
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6/prototype.js"></script>
-      
-      <div id="content">
-        {{ content }}
-      </div>
-      
-      <div class="clear"></div>
-      
     </div>
 
-    <script type="text/javascript">
-    //<![CDATA[
-    (function() {
-    		var links = document.getElementsByTagName('a');
-    		var query = '?';
-    		for(var i = 0; i < links.length; i++) {
-    			if(links[i].href.indexOf('#disqus_thread') >= 0) {
-    				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-    			}
-    		}
-    		document.write('<script type="text/javascript" src="http://disqus.com/forums/jweslley/get_num_replies.js' + query + '"></' + 'script>');
-    	})();
-    //]]>
-    </script>
-
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-      try {
-      var pageTracker = _gat._getTracker("UA-9424369-1");
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
+    {% include scripts.html %}
 
   </body>
 </html>

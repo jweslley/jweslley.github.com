@@ -1,12 +1,19 @@
 ---
-layout: default
+layout: nosidebar
 ---
 
-<div id="post">
-  <h2>{{ page.title }}</h2>
-  {{ content }}
+<!-- post navigation -->
+<div id="post-navigation">
+	<a href="/">« Previous</a> | <a href="/">Home</a> | <a href="/">Next »</a>
 </div>
 
+<!-- post -->
+<div id="post-content">
+	<h2>{{ page.title }}</h2>
+	{{ content }}
+</div>
+
+<!-- related posts -->
 <div id="related">
   <h3>Related Posts</h3>
   <ul class="posts">
@@ -16,4 +23,8 @@ layout: default
   </ul>
 </div>
 
-<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/jweslley/embed.js"></script><noscript><a href="http://jweslley.disqus.com/?url=ref">View comments.</a></noscript>
+<!-- comments -->
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="http://disqus.com/forums/jweslley/embed.js"></script>
+<noscript><a href="http://jweslley.disqus.com/?url=ref">View comments.</a></noscript>
+

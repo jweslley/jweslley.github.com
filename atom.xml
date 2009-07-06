@@ -22,7 +22,7 @@ reference: jweslley.github.com
    <content type="html">{{ post.content | xml_escape }}</content>
    <author>
      <name>Jonhnny Weslley</name>
-     <uri>http://{{ page.reference }}about.html</uri>
+     <uri>http://{{ page.reference }}about/</uri>
    </author>
  </entry>
  {% endfor %}
