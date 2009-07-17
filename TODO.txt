@@ -1,14 +1,8 @@
 FEATURES
 --------------------------------------------------------
-- use fluid css
-
 
 TODO
 --------------------------------------------------------
-- use fluid css
-- about page
-- archives page
-- contact page
 - reasearch page
 - projects page
 - resume page
@@ -17,4 +11,4 @@ TODO
 
 BUGS
 --------------------------------------------------------
-- bad visualization on lower resolutions, use relative.
+

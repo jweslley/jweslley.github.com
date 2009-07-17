@@ -7,16 +7,14 @@
   </head>
   <body>
 
-  	<div id="site">
+    <div id="header">
+      <h1><a href="/">Jonhnny Weslley</a></h1>
+    </div>
 
-      {% include top_menu.html %}
-
-      {% include sidebar.html %}
-
-      {{ content }}
-
-      <div class="clear"></div>
-
+    <div id="content" class="clearfix">
+      {% include navigation.html %}
+		
+      {{content}}
     </div>
 
     {% include scripts.html %}
