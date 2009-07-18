@@ -7,12 +7,10 @@
   </head>
   <body>
 
-    <div id="header">
-      <h1><a href="/">Jonhnny Weslley</a></h1>
-    </div>
+    {% include header.html %}
 
     <div id="content" class="clearfix">
-      {% include navigation.html %}
+      {% include sidebar.html %}
 		
       {{content}}
     </div>
