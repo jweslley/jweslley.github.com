@@ -166,6 +166,10 @@ html>body #footer {
   margin-right:2.85em;
 }
 
+.dateHeader {
+  font-size:.8em;
+}
+
 #disqus_thread {
   margin-bottom: 130px;
 }
