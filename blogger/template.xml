@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Jonhnny Weslley
+URL:      blog.jonhnnyweslley.net
+Date:     27 May 2010
+----------------------------------------------- */
+]]></b:skin>
+<link rel="stylesheet" href="http://jweslley.github.com/css/cse.css" type="text/css" />
+<link rel="stylesheet" href="http://jweslley.github.com/css/default.css" type="text/css" media="screen"/>
+</head>
+<body>
+
+<!-- header -->
+<div id="header">
+<div id="cse">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function(){
+    var customSearchControl = new google.search.CustomSearchControl('009536027870159905177:4sfyeliac5i');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+
+  <h1><a href="/">Jonhnny Weslley</a></h1>
+  <div id="navigation">
+    <a href="/" title="Home">Home</a>   &nbsp; &nbsp;
+  	<a href="/archives" title="Blog archives">archives</a>    &nbsp; &nbsp;
+		<a href="/about" rel="me" title="Sobre o autor">Sobre</a> &nbsp; &nbsp;
+		<a href="http://feeds2.feedburner.com/RaciocinioLateralBlogSpot" title="Assine nosso RSS ">rss</a>
+	</div>
+</div>
+<!-- end of header -->
+
+<!-- content -->
+<div id="content" class="rounded-corners clearfix">
+  <!-- main -->
+  <b:section class='main' id='main' showaddelement='yes'>
+<b:widget id='Blog1' locked='true' title='Postagens no blog' type='Blog'/>
+  </b:section>
+  <!-- end of main -->
+</div>
+<!-- end of content -->
+
+<!-- sidebar -->
+<div id="sidebar" class="rounded-corners"> 
+  <h2>Me</h2>
+  <ul>
+    <li><a href="/" title="Home">Home</a></li>
+    <li><a href="/archives/" title="Blog archives">Archives</a></li>
+    <li><a href="/about/" title="About the author">About</a></li>
+    <li><a href="/contact/" title="Contact information">Contact</a></li>
+  </ul>
+  <h2>And then some</h2>
+  <ul>
+    <li><a href="http://github.com/jweslley">GitHub</a></li>
+    <li><a href="http://twitter.com/jweslley">Twitter</a></li>
+    <li><a href="http://www.linkedin.com/in/jweslley">LinkedIn</a></li>
+  </ul>
+  <h2>Links</h2>
+  <ul>
+    <li><a href="http://www.antiifcampaign.com">Anti-If Campaign</a></li>
+  </ul> 
+</div>
+<!-- end of sidebar -->
+
+<!-- Google Analytics -->
+<script type='text/javascript'>
+var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
+document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
+</script>
+<script type='text/javascript'>
+try {
+var pageTracker = _gat._getTracker(&quot;UA-8344655-1&quot;);
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
