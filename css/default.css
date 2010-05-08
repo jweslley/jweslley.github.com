@@ -62,19 +62,16 @@ blockquote p {
 #content {
   voice-family: "\"}\"";
   voice-family: inherit;
-  margin: .2em 2.25em .2em 2.25em;
-  padding:2em .5em 2em .5em;
+  margin: .2em 0em .2em 2.25em;
+  padding:.5em .5em 2em .5em;
   background:#f8f8f8;
   border:1px solid #eee;
   font-size:.9em;
+	float: left;
+	width: 70%;
 }
 
-html>body #content {
-  margin-left:2.25em;
-  margin-right:2.25em;
-}
-
-#content h2 { 
+#content h2 {
   margin:0 0 0em 0; 
   padding:1;
   letter-spacing:.08em;
@@ -87,14 +84,14 @@ html>body #content {
 }
 
 #sidebar {
-  float:right;
-  margin:0 0 0 1em;
+	float: left;
+	width: 20%;
+  margin-left:.5em;
   padding:.7em;
-  width:13em;
-  background-color:#eeeeee;
-  border:1px solid #999;
+  background:#f8f8f8;
+  border:1px solid #eee;
   font-size:.9em;
-  font-family: georgia, serif;
+  font-variant: small-caps;
 }
 
 #sidebar h2 { 
@@ -158,6 +155,13 @@ html>body #content {
 html>body #footer {
   margin-left:2.85em;
   margin-right:2.85em;
+}
+
+.rounded-corners {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
 }
 
 .blogger-post-wrapper {
