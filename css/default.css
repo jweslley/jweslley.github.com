@@ -86,6 +86,7 @@ blockquote p {
 #sidebar {
 	float: left;
 	width: 20%;
+  margin-top:.2em;
   margin-left:.5em;
   padding:.7em;
   background:#f8f8f8;
@@ -137,24 +138,14 @@ blockquote p {
 }
 
 #footer {
-  right:2.85em;
-  margin-top:.2em;
-  margin-bottom:2em;
-  margin-left: 2.85em;
-  margin-right:2.85em;
   voice-family: "\"}\"";
   voice-family: inherit;
-  margin-left:2.85em;
-  margin-right:2.85em;
-  padding:1em .5em 1em .5em;
-  background:#cccccc;
+  padding:1em 0em 1em 0em;
   font-size:.7em;
   text-align:center;
-}
-
-html>body #footer {
-  margin-left:2.85em;
-  margin-right:2.85em;
+  width:100%;
+  display:inline-block;
+  overflow:hidden;
 }
 
 .rounded-corners {

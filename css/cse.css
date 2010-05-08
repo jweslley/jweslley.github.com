@@ -1,11 +1,10 @@
-/**
- * Default theme
- *
- */
+
 /* Slight reset to make the preview have ample padding. */
 #cse {
-  float: right;
-  width: 20em;
+  width: 21.5%;
+  position:fixed;
+  right: 4.5%;
+  bottom:auto;
 }
 
 .cse .gsc-control-cse,
