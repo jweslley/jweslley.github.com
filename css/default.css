@@ -220,6 +220,10 @@ blockquote p {
   margin: 1em 0 0.5em 0;
 }
 
+#navbar-iframe {
+  display: none !important;
+}
+
 #disqus_thread {
   margin-bottom: 130px;
 }
