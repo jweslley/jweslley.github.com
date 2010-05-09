@@ -92,7 +92,7 @@ blockquote p {
   background:#f8f8f8;
   border:1px solid #eee;
   font-size:.9em;
-  font-variant: small-caps;
+  font-variant: sans-serif;
 }
 
 #sidebar h2 { 
@@ -116,13 +116,45 @@ blockquote p {
 #sidebar li a { 
   margin:0 0 0 .2em;
   color:#00c;
-  text-decoration:none; 
+  text-decoration:none;
 }
 
 #sidebar li a:hover { 
   color:#00c;
   text-decoration:underline; 
 }
+
+#sidebar li.icon a {
+  display:block;
+  height:30px;
+  line-height:30px;
+  padding-left:30px;
+}
+
+#sidebar li.rss a {
+  background:url("/data/workspace/jweslley.github.com/images/rss.png") no-repeat scroll 0 50% transparent;
+}
+
+#sidebar li.email a {
+  background:url("/data/workspace/jweslley.github.com/images/email.png") no-repeat scroll 0 50% transparent;
+}
+
+#sidebar li.github a {
+  background:url("/data/workspace/jweslley.github.com/images/github.png") no-repeat scroll 0 50% transparent;
+}
+
+#sidebar li.twitter a {
+  background:url("/data/workspace/jweslley.github.com/images/twitter.png") no-repeat scroll 0 50% transparent;
+}
+
+#sidebar li.linkedin a {
+  background:url("/data/workspace/jweslley.github.com/images/linkedin.png") no-repeat scroll 0 50% transparent;
+}
+
+#sidebar li.delicious a {
+  background:url("/data/workspace/jweslley.github.com/images/delicious.png") no-repeat scroll 0 50% transparent;
+}
+
 
 #navigation {
 	font-size: 0.9em;
