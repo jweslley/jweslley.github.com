@@ -30,10 +30,10 @@ Date:     27 May 2010
   <div id="cse">Loading</div>
   <h1><a href="/">Jonhnny Weslley</a></h1>
   <div id="navigation">
-    <a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">home</a> &nbsp; &nbsp;
-  	<a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog">blog</a> &nbsp; &nbsp;
-		<a href="http://jweslley.github.com/" title="Jonhnny Weslley's OpenSource Projects">projects</a> &nbsp; &nbsp;
-		<a href="#" class="osx" rel="me" title="About the author">about</a>
+    <a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">Home</a> &nbsp; &nbsp;
+  	<a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog">Blog</a> &nbsp; &nbsp;
+		<a href="http://jweslley.github.com/" title="Jonhnny Weslley's OpenSource Projects">Projects</a> &nbsp; &nbsp;
+		<a href="#" class="osx" rel="me" title="About the author">About</a>
 	</div>
 </div>
 <!-- end of header -->
