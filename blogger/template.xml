@@ -56,7 +56,7 @@ Date:     27 May 2010
 	<h2>Subscribe</h2>
 	<ul>
     <li class="icon rss"><a href="http://feeds2.feedburner.com/RaciocinioLateralBlogSpot">Assine via RSS</a></li>
-    <li class="icon email"><a href="http://feedburner.google.com/fb/a/mailverify?uri=RaciocinioLateralBlogSpot&loc=pt_BR">Assine via E-mail</a></li>
+    <li class="icon email"><a href="http://feedburner.google.com/fb/a/mailverify?uri=RaciocinioLateralBlogSpot&amp;loc=pt_BR">Assine via E-mail</a></li>
 	</ul>
 
   <h2>Links</h2>
@@ -68,6 +68,14 @@ Date:     27 May 2010
   </ul>
 </div>
 <!-- end of sidebar -->
+
+<div id='sidebar-wrapper'>
+<b:section class='sidebar' id='sidebar' preferred='yes'>
+  <b:widget id='Gadget1' locked='false' title='Recent Posts' type='Gadget'/>
+  <b:widget id='BlogArchive2' locked='false' title='Arquivo' type='BlogArchive'/>
+</b:section>
+</div>
+
 
 <div id="footer">
 <p>&copy; 2010 <a href="http://jonhnnyweslley.net">Jonhnny Weslley</a>. All Rights Reserved.</p>

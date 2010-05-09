@@ -132,27 +132,27 @@ blockquote p {
 }
 
 #sidebar li.rss a {
-  background:url("/data/workspace/jweslley.github.com/images/rss.png") no-repeat scroll 0 50% transparent;
+  background:url("http://jweslley.github.com/images/rss.png") no-repeat scroll 0 50% transparent;
 }
 
 #sidebar li.email a {
-  background:url("/data/workspace/jweslley.github.com/images/email.png") no-repeat scroll 0 50% transparent;
+  background:url("http://jweslley.github.com/images/email.png") no-repeat scroll 0 50% transparent;
 }
 
 #sidebar li.github a {
-  background:url("/data/workspace/jweslley.github.com/images/github.png") no-repeat scroll 0 50% transparent;
+  background:url("http://jweslley.github.com/images/github.png") no-repeat scroll 0 50% transparent;
 }
 
 #sidebar li.twitter a {
-  background:url("/data/workspace/jweslley.github.com/images/twitter.png") no-repeat scroll 0 50% transparent;
+  background:url("http://jweslley.github.com/images/twitter.png") no-repeat scroll 0 50% transparent;
 }
 
 #sidebar li.linkedin a {
-  background:url("/data/workspace/jweslley.github.com/images/linkedin.png") no-repeat scroll 0 50% transparent;
+  background:url("http://jweslley.github.com/images/linkedin.png") no-repeat scroll 0 50% transparent;
 }
 
 #sidebar li.delicious a {
-  background:url("/data/workspace/jweslley.github.com/images/delicious.png") no-repeat scroll 0 50% transparent;
+  background:url("http://jweslley.github.com/images/delicious.png") no-repeat scroll 0 50% transparent;
 }
 
 
