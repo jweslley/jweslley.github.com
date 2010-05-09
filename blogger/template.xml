@@ -52,7 +52,7 @@ Date:     27 May 2010
 <!-- end of content -->
 
 <!-- sidebar -->
-<div id="sidebar" class="rounded-corners"> 
+<div id="sidebar" class="sidebar rounded-corners"> 
 	<h2>Subscribe</h2>
 	<ul>
     <li class="icon rss"><a href="http://feeds2.feedburner.com/RaciocinioLateralBlogSpot">Assine via RSS</a></li>
@@ -69,13 +69,10 @@ Date:     27 May 2010
 </div>
 <!-- end of sidebar -->
 
-<div id='sidebar-wrapper'>
-<b:section class='sidebar' id='sidebar' preferred='yes'>
+<b:section class='sidebar rounded-corners' id='sidebar' preferred='yes'>
   <b:widget id='Gadget1' locked='false' title='Recent Posts' type='Gadget'/>
   <b:widget id='BlogArchive2' locked='false' title='Arquivo' type='BlogArchive'/>
 </b:section>
-</div>
-
 
 <div id="footer">
 <p>&copy; 2010 <a href="http://jonhnnyweslley.net">Jonhnny Weslley</a>. All Rights Reserved.</p>
