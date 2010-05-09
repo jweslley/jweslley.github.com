@@ -59,7 +59,7 @@ blockquote p {
   color:#3b6edd;
 }
 
-#content {
+#content, #nosidebar {
   voice-family: "\"}\"";
   voice-family: inherit;
   margin: .2em 0em .2em 2.25em;
@@ -71,7 +71,11 @@ blockquote p {
 	width: 70%;
 }
 
-#content h2 {
+#nosidebar {
+	width: 90%;
+}
+
+#content h2, #nosidebar h2 {
   margin:0 0 0em 0; 
   padding:1;
   letter-spacing:.08em;
@@ -79,7 +83,7 @@ blockquote p {
   font-family: georgia, serif;
 }
 
-#content h2 a {
+#content h2 a, #nosidebar h2 a {
   color:#3b6edd;
 }
 
