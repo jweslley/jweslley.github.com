@@ -13,6 +13,7 @@ URL:      blog.jonhnnyweslley.net
 Date:     27 May 2010
 ----------------------------------------------- */
 ]]></b:skin>
+<link rel="stylesheet" href="http://jweslley.github.com/css/syntax.css" type="text/css" />
 <link rel="stylesheet" href="http://jweslley.github.com/css/cse.css" type="text/css" />
 <link rel="stylesheet" href="http://jweslley.github.com/css/default.css" type="text/css" media="screen"/>
 </head>
