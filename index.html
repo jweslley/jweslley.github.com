@@ -12,21 +12,3 @@ layout: default
   {% endfor %}
 </ul>
 
-<h2>Tweets</h2>
-<div id="tweets">
-  Loading...
-</div>
-
-<script type="text/javascript" src="/js/twitter-1.11.2.js"></script>
-
-<script type="text/javascript">
-  getTwitters('tweets', { 
-    id: 'jweslley',
-    count: 5,
-    enableLinks: true,
-    clearContents: true,
-    template: '%text%'
-  });
-</script>
-
-
