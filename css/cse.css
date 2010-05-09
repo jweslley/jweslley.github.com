@@ -2,7 +2,7 @@
 /* Slight reset to make the preview have ample padding. */
 #cse {
   width: 21.5%;
-  position:fixed;
+  position:absolute;
   right: 4.5%;
   bottom:auto;
 }
