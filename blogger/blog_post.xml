@@ -42,7 +42,7 @@
   <b:include name='nextprev'/>
 
   <!-- feed links -->
-  <b:include name='feedLinks'/>
+  <!--b:include name='feedLinks'/-->
 
   <b:if cond='data:top.showStars'>
     <script src='//www.google.com/jsapi' type='text/javascript'/>
