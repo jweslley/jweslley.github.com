@@ -69,9 +69,9 @@ Date:     27 May 2010
 </div>
 <!-- end of sidebar -->
 
-<b:section class='sidebar rounded-corners' id='sidebar' preferred='yes'>
+<b:section class='sidebar rounded-corners' id='recentposts' preferred='yes'>
   <b:widget id='Gadget1' locked='false' title='Recent Posts' type='Gadget'/>
-  <b:widget id='BlogArchive2' locked='false' title='Arquivo' type='BlogArchive'/>
+  <b:widget id='BlogArchive2' locked='false' title='Arquivos' type='BlogArchive'/>
 </b:section>
 
 <div id="footer">

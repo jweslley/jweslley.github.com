@@ -197,6 +197,10 @@ blockquote p {
   font-size:.8em;
 }
 
+.BlogArchive #ArchiveList ul {
+  margin-top: 1.5em;
+}
+
 #disqus_thread {
   margin-bottom: 130px;
 }
