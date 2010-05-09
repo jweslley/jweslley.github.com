@@ -9,7 +9,7 @@
 Blogger Template Style
 Name:     Simple
 Designer: Jonhnny Weslley
-URL:      blog.jonhnnyweslley.net
+URL:      *.jonhnnyweslley.net
 Date:     27 May 2010
 ----------------------------------------------- */
 ]]></b:skin>
@@ -37,6 +37,20 @@ Date:     27 May 2010
 	</div>
 </div>
 <!-- end of header -->
+
+<!-- about modal content -->
+<div id="osx-modal-content">
+  <div id="osx-modal-title">About Me</div>
+  <div class="close"><a href="#" class="simplemodal-close">x</a></div>
+  <div id="osx-modal-data">
+    <h2>Hello! I'm SimpleModal!</h2>
+    <p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+    <p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+    <p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+    <p><button class="simplemodal-close">Close</button> <span>(or press ESC or click the overlay)</span></p>
+  </div>
+</div>
+<!-- end of about modal content -->
 
 <!-- content -->
 <div id="content" class="rounded-corners clearfix">
