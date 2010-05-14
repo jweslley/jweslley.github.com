@@ -6,9 +6,11 @@ layout: default
 Language of the Year (under construction)
 -----------------------------------------
 
+* Future - Haskell, Lisp/Clojure
+
 * 2010 - Erlang (planned)
 
-* 2009 - Haskell. But I had no time to learn it in depth. Don't panic.
+* 2009 - R
 
 * 2008 - Python
 
