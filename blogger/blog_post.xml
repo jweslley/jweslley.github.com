@@ -124,15 +124,24 @@
     </span>
     <span class='post-icons'>
       <!-- email post links -->
-      <b:if cond='data:post.emailPostUrl'>
+      <!--b:if cond='data:post.emailPostUrl'>
         | <span class='item-action'>
         <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
             <img alt='' class='icon-action' height='13' src='http://jweslley.github.com/images/mail.png' width='18'/>
         </a>
         </span>
-      </b:if>
+      </b:if-->
+
       <!-- quickedit pencil -->
       <b:include data='post' name='postQuickEdit'/>
+      <!-- quickedit pencil -->
+
+      <!-- AddThis Button BEGIN -->
+      <div class='addthis_toolbox addthis_default_style' expr:addthis:title='data:post.title' expr:addthis:url='data:post.url' style="float: right;"><a href='http://www.addthis.com/bookmark.php?v=250&amp;username=jweslley' class='addthis_button_compact'>Share</a>
+      </div>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=jweslley"></script>
+      <!-- AddThis Button END -->
+
     </span>
     <span class='post-backlinks post-comment-link'>
        <b:if cond='data:blog.pageType != &quot;item&quot;'>
