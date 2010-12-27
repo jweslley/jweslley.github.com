@@ -2,6 +2,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+    <b:if cond='data:blog.isMobile'>
+      <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+    <b:else/>
+      <meta content='width=1100' name='viewport'/>
+    </b:if>
     <b:include data='blog' name='all-head-content'/>
     <title><data:blog.pageTitle/></title>
     <b:skin><![CDATA[/*
@@ -10,118 +16,88 @@ Blogger Template Style
 Name:     Simple
 Designer: Jonhnny Weslley
 URL:      *.jonhnnyweslley.net
-Date:     27 May 2010
+Date:     27 Dec 2010
 ----------------------------------------------- */
 ]]></b:skin>
 
-<link rel="stylesheet" href="http://jweslley.github.com/css/cse.css"     type="text/css"/>
-<link rel="stylesheet" href="http://jweslley.github.com/css/osx.css"     type="text/css" media="screen"/>
-<link rel="stylesheet" href="http://jweslley.github.com/css/default.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="http://jweslley.github.com/css/syntax.css"  type="text/css" media="screen"/>
+    <meta name="author" content="Jonhnny Weslley" />
+    <meta name="description" content="Jonhnny Weslley's Blog" />
+    <meta name="keywords" content="jonhnny weslley, research, distributed, blog, java, scala, ruby, programming" />
+    <meta name="gleebox-default-selector" content="#content a" />
+    <link rel="me" href="http://www.jonhnnyweslley.net"/>
+    <link rel="stylesheet" href="http://jweslley.github.com/css/cse.css"     type="text/css"/>
+    <link rel="stylesheet" href="http://jweslley.github.com/css/default.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="http://jweslley.github.com/css/syntax.css"  type="text/css" media="screen"/>
+  </head>
+  <body>
+    <div id="header">
+      <h1>
+        <a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley" rel="home">Jonhnny Weslley</a>
+      </h1>
+    </div>
+    <!-- TODO div id="cse">Loading</div-->
 
-<script type="text/javascript" src="http://jweslley.github.com/js/jquery.js"></script>
-<script type="text/javascript" src="http://jweslley.github.com/js/jquery.simplemodal.js"></script>
-<script type="text/javascript" src="http://jweslley.github.com/js/osx.js"></script>
-</head>
-<body>
+    <div id="navigation">
+      <div class="menu">
+        <ul>
+          <li><a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">Home</a></li>
+          <li><a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog" class="current" >Blog</a></li>
+          <li><a href="http://jweslley.github.com" title="Jonhnny Weslley's Projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
 
-<!-- header -->
-<div id="header">
-  <div id="cse">Loading</div>
-  <h1><a href="/">Jonhnny Weslley</a></h1>
-  <div id="navigation">
-    <a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">Home</a> &nbsp; &nbsp;
-  	<a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog">Blog</a> &nbsp; &nbsp;
-		<a href="http://jweslley.github.com/" title="Jonhnny Weslley's OpenSource Projects">Projects</a> &nbsp; &nbsp;
-		<a href="#" class="osx" rel="me" title="About the author">About</a>
-	</div>
-</div>
-<!-- end of header -->
+    <div id="socialmenu">
+      <ul>
+        <li><a href="http://feeds.feedburner.com/RaciocinioLateralBlogSpot" class="rss" title="Subscribe via RSS"></a></li>
+        <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=RaciocinioLateralBlogSpot" class="email" title="Subscribe via E-mail"></a></li>
+        <li><a href="http://twitter.com/jweslley" class="twitter" title="Twitter"></a></li>
+        <li><a href="http://www.linkedin.com/in/jweslley" class="linkedin" title="LinkedIn"></a></li>
+        <li><a href="http://delicious.com/jonhnnyweslley" class="delicious" title="Bookmarks"></a></li>
+        <li><a href="http://github.com/jweslley" class="github" title="GitHub"></a></li>
+      </ul>
+    </div>
 
-<!-- about modal content -->
-<div id="osx-modal-content">
-  <div id="osx-modal-title">About Me</div>
-  <div class="close"><a href="#" class="simplemodal-close">x</a></div>
-  <div id="osx-modal-data">
-    <h2>Hello! I'm SimpleModal!</h2>
-    <p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
-    <p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
-    <p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
-    <p><button class="simplemodal-close">Close</button> <span>(or press ESC or click the overlay)</span></p>
-  </div>
-</div>
-<!-- end of about modal content -->
+    <div id="main">
+      <div id="primary">
+        <div id="content">
+          <b:section class='main' id='main' showaddelement='yes'>
+	          <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'/>
+          </b:section>
+        </div>
+      </div>
+    </div>
 
-<!-- content -->
-<div id="content" class="rounded-corners clearfix">
-  <!-- main -->
-  <b:section class='main' id='main' showaddelement='yes'>
-<b:widget id='Blog1' locked='true' title='Postagens no blog' type='Blog'/>
-  </b:section>
-  <!-- end of main -->
-</div>
-<!-- end of content -->
+    <div id="footer">
+      <div class="copy">
+        Copyright &copy; 2007-2011 <a href="http://www.jonhnnyweslley.net">Jonhnny Weslley</a>. All rights reserved.
+      </div>
+    </div>
 
-<!-- sidebar -->
-<div id="sidebar" class="sidebar rounded-corners">
-	<h2>Subscribe</h2>
-	<ul>
-    <li class="icon rss"><a href="http://feeds2.feedburner.com/RaciocinioLateralBlogSpot">Assine via RSS</a></li>
-    <li class="icon email"><a href="http://feedburner.google.com/fb/a/mailverify?uri=RaciocinioLateralBlogSpot&amp;loc=pt_BR">Assine via E-mail</a></li>
-	</ul>
+    <!-- Custom Search Engine -->
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load('search', '1', {language : 'en'});
+      google.setOnLoadCallback(function(){
+        var customSearchControl = new google.search.CustomSearchControl('009536027870159905177:4sfyeliac5i');
+        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        customSearchControl.draw('cse');
+      }, true);
+    </script>
+    <!-- end of Custom Search Engine -->
 
-  <h2>Links</h2>
-  <ul>
-    <li class="icon twitter"><a href="http://twitter.com/jweslley">Twitter</a></li>
-    <li class="icon linkedin"><a href="http://www.linkedin.com/in/jweslley">LinkedIn</a></li>
-    <li class="icon delicious"><a href="http://delicious.com/jonhnnyweslley">Bookmarks</a></li>
-    <li class="icon github"><a href="http://github.com/jweslley">GitHub</a></li>
-  </ul>
-</div>
-<!-- end of sidebar -->
-
-<b:section class='sidebar rounded-corners' id='recentposts' preferred='yes'>
-  <b:widget id='Gadget1' locked='false' title='Recent Posts' type='Gadget'/>
-  <b:widget id='BlogArchive2' locked='false' title='Arquivos' type='BlogArchive'/>
-</b:section>
-
-<div id="footer">
-<p>&copy; 2010 <a href="http://jonhnnyweslley.net">Jonhnny Weslley</a>. All Rights Reserved.</p>
-</div>
-
-<!-- AddThis Clickback Analytics -->
-<script type="text/javascript">
-var addthis_config =
-{
-    data_track_linkback: true,
-    services_compact: 'email, delicious, dzone, facebook, googlebuzz, googlereader, twitter, more'
-}
-</script>
-<!-- AddThis Clickback Analytics -->
-
-<!-- Custom Search Engine -->
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript">
-  google.load('search', '1', {language : 'en'});
-  google.setOnLoadCallback(function(){
-    var customSearchControl = new google.search.CustomSearchControl('009536027870159905177:4sfyeliac5i');
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    customSearchControl.draw('cse');
-  }, true);
-</script>
-<!-- end of Custom Search Engine -->
-
-<!-- Google Analytics -->
-<script type='text/javascript'>
-var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
-document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
-</script>
-<script type='text/javascript'>
-try {
-var pageTracker = _gat._getTracker(&quot;UA-8344655-1&quot;);
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
-<!-- end of Google Analytics -->
+    <!-- Google Analytics -->
+    <script type='text/javascript'>
+      var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
+      document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
+    </script>
+    <script type='text/javascript'>
+      try {
+      var pageTracker = _gat._getTracker(&quot;UA-8344655-1&quot;);
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+    <!-- end of Google Analytics -->
+  </body>
 </html>
 

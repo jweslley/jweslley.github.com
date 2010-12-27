@@ -4,3 +4,4 @@
 ** Copie o conteudo do arquivo blog_post.xml, e cole-o substituindo;
 o widget com id 'Blog1' no arquivo template.xml;
 ** altere o link <a> do blog q usarah o template para <span> no menu de navegaçao.
+** altere os codigos do google analytics

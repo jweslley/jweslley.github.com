@@ -13,10 +13,10 @@ Here's the puzzle:
 
 > [Buzz][Buzz], [Woody][Woody], [Rex][Rex], and [Hamm][Hamm] have to escape from [Zurg][Zurg]. They merely have to cross one last bridge before they are free. However, the bridge is fragile and can hold at most two of them at the same time. Moreover, to cross the bridge a flashlight is needed to avoid traps and broken parts. The problem is that our friends have only one flashlight with one battery that lasts for only 60 minutes. The toys need different times to cross the bridge (in either direction):
 
-> *Buzz*: 5 minutes <br>
-> *Woody*: 10 minutes <br>
-> *Rex*: 20 minutes <br>
-> *Hamm*: 25 minutes <br>
+> **Buzz**: 5 minutes <br>
+> **Woody**: 10 minutes <br>
+> **Rex**: 20 minutes <br>
+> **Hamm**: 25 minutes <br>
 
 [Buzz]: http://en.wikipedia.org/wiki/Buzz_Lightyear
 [Woody]: http://en.wikipedia.org/wiki/Sheriff_Woody#Woody

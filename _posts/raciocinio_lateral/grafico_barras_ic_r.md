@@ -66,7 +66,7 @@ Assim, o script R abaixo resolveu o problema:
 
 E, o gráfico produzido foi este:
 
-![Gráficos de barras com intervalo de confiança em R](http://4.bp.blogspot.com/_WfgfddE/SxAxrrZP-_I/AAAAAAAAAio/zUyU0a52x0Y/s320/results-barplot.png)
+![Gráficos de barras com intervalo de confiança em R](https://dl.dropbox.com/u/2624281/blogging/grafico_barras_ic_r.png)
 
 [R]: http://www.r-project.org/ "The R Project for Statistical Computing"
 
