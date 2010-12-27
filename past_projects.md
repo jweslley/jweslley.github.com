@@ -1,10 +1,7 @@
 ---
-title: Projects I have worked on
-layout: default
+title: Past projects
+layout: page
 ---
-
-Past Projects
--------------
 
 This page details some of the projects that I have worked on in the past.
 
@@ -28,4 +25,3 @@ This page details some of the projects that I have worked on in the past.
 [comp-arch]: http://sertao3d.wordpress.com/2008/01/29/data-driven-game-development/
 [dig]:       http://sertao3d.wordpress.com/2008/03/30/dependency-injection-in-games
 [crud]:      http://en.wikipedia.org/wiki/CRUD_%28acronym%29
-

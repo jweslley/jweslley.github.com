@@ -1,10 +1,7 @@
 ---
 title: All my open source software
-layout: default
+layout: page
 ---
-
-Open Source Software
---------------------
 
 * [Google Docs File System][gdocsfs] provides a mountable Linux filesystem which uses your Google Docs account as its storage medium.
 

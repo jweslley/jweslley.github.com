@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+    <b:if cond='data:blog.isMobile'>
+      <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+    <b:else/>
+      <meta content='width=1100' name='viewport'/>
+    </b:if>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Jonhnny Weslley
+URL:      *.jonhnnyweslley.net
+Date:     27 Dec 2010
+----------------------------------------------- */
+]]></b:skin>
+
+    <meta name="author" content="Jonhnny Weslley" />
+    <meta name="description" content="Jonhnny Weslley's Blog" />
+    <meta name="keywords" content="jonhnny weslley, research, distributed, blog, java, scala, ruby, programming" />
+    <meta name="gleebox-default-selector" content="#content a" />
+    <link rel="me" href="http://www.jonhnnyweslley.net">
+    <link rel="stylesheet" href="/css/cse.css"     type="text/css"/>
+    <link rel="stylesheet" href="/css/default.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/css/syntax.css"  type="text/css" media="screen"/>
+  </head>
+  <body>
+    <div id="header">
+      <h1>
+        <a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley" rel="home">Jonhnny Weslley</a>
+      </h1>
+    </div>
+    <!-- TODO div id="cse">Loading</div-->
+
+    <div id="navigation">
+      <div class="menu">
+        <ul>
+          <li><a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">Home</a></li>
+          <li><a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog" class="current" >Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="socialmenu">
+      <ul>
+        <li><a href="http://feeds2.feedburner.com/jweslley" class="rss" title="Subscribe via RSS"></a></li>
+        <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=jweslley" class="email" title="Subscribe via E-mail"></a></li>
+        <li><a href="http://twitter.com/jweslley" class="twitter" title="Twitter"></a></li>
+        <li><a href="http://www.linkedin.com/in/jweslley" class="linkedin" title="LinkedIn"></a></li>
+        <li><a href="http://delicious.com/jonhnnyweslley" class="delicious" title="Bookmarks"></a></li>
+        <li><a href="http://github.com/jweslley" class="github" title="GitHub"></a></li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <div id="primary">
+        <div id="content">
+          <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'/>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="copy">
+        Copyright &copy; 2007-2011 <a href="http://www.jonhnnyweslley.net">Jonhnny Weslley</a>. All rights reserved.
+      </div>
+    </div>
+
+    <!-- Custom Search Engine -->
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load('search', '1', {language : 'en'});
+      google.setOnLoadCallback(function(){
+        var customSearchControl = new google.search.CustomSearchControl('009536027870159905177:4sfyeliac5i');
+        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        customSearchControl.draw('cse');
+      }, true);
+    </script>
+    <!-- end of Custom Search Engine -->
+
+    <!-- Google Analytics -->
+    <script type='text/javascript'>
+      var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
+      document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
+    </script>
+    <script type='text/javascript'>
+      try {
+      var pageTracker = _gat._getTracker(&quot;UA-8344655-1&quot;);
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+    <!-- end of Google Analytics -->
+  </body>
+</html>
+

@@ -7,7 +7,6 @@ TODO
 - reasearch page
 - projects page
 - resume page
-- publish a first post: Blogging Like a Hacker
 
 
 BUGS

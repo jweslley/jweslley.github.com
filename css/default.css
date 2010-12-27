@@ -1,259 +1,385 @@
+/* reset -------------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+aside, canvas, details, figcaption, figure,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul, ol, dl, p {
+  margin-bottom: 1em;
+}
+
+li {
+  margin-left: 2em;
+  margin-bottom: .5em;
+}
 
 body {
-  margin:0;
-  padding:0;
-  background-color:#ffffff;
-  font-family: sans-serif;
-  font-size:1em;
+  line-height: 1;
+}
+
+aside,canvas,details,figcaption,figure,summary {
+  display: block;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote: before, blockquote: after,
+q: before, q: after {
+  content: '';
+  content: none;
 }
 
 a {
-  color:#00c;
-  text-decoration:none;
-}
-
-a:hover {
-  color:#00c;
-  text-decoration:underline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 a:visited {
-  color:#50a;
+  color: #00243e;
 }
 
-blockquote {
-  margin:1em;
-  padding:.5em;
-  font-size:.9em;
-  background-color:#cccccc;
-  border-top:1px solid #999999;
-  border-bottom:1px solid #999999;
+a:active {
+  color: #ff7200;
 }
 
-blockquote p {
-  margin:.2em;
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
-#header {
-  margin:0.5em 2em 0 2em;
-  padding:1em 1.5em 0 1em;
-  height:4em;
-  background-color:#ffffff;
-}
-
-#header h1 { 
-  margin:0;
-  padding:0;
-  font-size:1.8em;
-  font-family: georgia, serif;
-}
-
-#header h3 { 
-  margin:0; 
-  padding:0;
-  font-size:.9em;
-}
-
-#header a {
-  text-decoration:none;
-  color:#3b6edd;
-}
-
-#content, #nosidebar {
-  voice-family: "\"}\"";
-  voice-family: inherit;
-  margin: .2em 0em .2em 2.25em;
-  padding:.5em .5em 2em .5em;
-  background:#f8f8f8;
-  border:1px solid #eee;
-  font-size:.9em;
-	float: left;
-	width: 70%;
-}
-
-#nosidebar {
-	width: 90%;
-}
-
-#content h2, #nosidebar h2 {
-  margin:0 0 0em 0; 
-  padding:1;
-  letter-spacing:.08em;
-  font-size:1.8em;
-  font-family: georgia, serif;
-}
-
-#content h2 a, #nosidebar h2 a {
-  color:#3b6edd;
-}
-
-.sidebar {
-	float: left;
-	width: 20%;
-  margin-top:.2em;
-  margin-left:.5em;
-  padding:.7em;
-  background:#f8f8f8;
-  border:1px solid #eee;
-  font-size:.9em;
-  font-variant: sans-serif;
-}
-
-.sidebar h2 { 
-  margin:0 0 -1em 0; 
-  padding:0;
-  font-size:1em;
-  letter-spacing:.1em;
-}
-
-.sidebar ul { 
-  margin:1.5em 0 0 0; 
-  padding:0;
-  list-style:none;
-}
-
-.sidebar li { 
-  margin:0 0 .4em 0; 
-  padding:0;
-}
-
-.sidebar li a { 
-  margin:0 0 0 .2em;
-  color:#00c;
-  text-decoration:none;
-}
-
-.sidebar li a:hover { 
-  color:#00c;
-  text-decoration:underline; 
-}
-
-.sidebar li.icon a {
-  display:block;
-  height:30px;
-  line-height:30px;
-  padding-left:30px;
-}
-
-.sidebar li.rss a {
-  background:url("http://jweslley.github.com/images/rss.png") no-repeat scroll 0 50% transparent;
-}
-
-.sidebar li.email a {
-  background:url("http://jweslley.github.com/images/email.png") no-repeat scroll 0 50% transparent;
-}
-
-.sidebar li.github a {
-  background:url("http://jweslley.github.com/images/github.png") no-repeat scroll 0 50% transparent;
-}
-
-.sidebar li.twitter a {
-  background:url("http://jweslley.github.com/images/twitter.png") no-repeat scroll 0 50% transparent;
-}
-
-.sidebar li.linkedin a {
-  background:url("http://jweslley.github.com/images/linkedin.png") no-repeat scroll 0 50% transparent;
-}
-
-.sidebar li.delicious a {
-  background:url("http://jweslley.github.com/images/delicious.png") no-repeat scroll 0 50% transparent;
-}
-
-
-#navigation {
-	font-size: 0.9em;
-	font-variant: sans-serif;
-	width: 100%;
-	text-align: left;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
-
-#navigation a:hover {
-  text-decoration:underline;
-}
-
-#navigation span {
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
   font-weight: bold;
 }
 
-#footer {
-  voice-family: "\"}\"";
-  voice-family: inherit;
-  padding:1em 0em 1em 0em;
-  font-size:.7em;
-  text-align:center;
-  width:100%;
-  display:inline-block;
-  overflow:hidden;
+del {
+  text-decoration: line-through;
 }
 
-.rounded-corners {
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -khtml-border-radius: 20px;
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
 }
 
-.blogger-post-wrapper {
-  margin-bottom: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #999;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.dateHeader {
-  font-size:.8em;
-}
-
-#Gadget1 h2 {
-  margin: 0 0 -0.5em 0;
-}
-
-#Gadget1 a { 
-  margin:0 0 0 .2em;
-  color:#00c;
-  text-decoration:none;
-}
-
-#Gadget1 a:hover { 
-  color:#00c;
-  text-decoration:underline; 
-}
-
-#BlogArchive2 h2 {
-  margin: 1em 0 0.5em 0;
-}
-
-#navbar {
-  display: none !important;
-}
-
-#disqus_thread {
-  margin-bottom: 130px;
-}
-
-#posts p, #tweets p {
-  margin: 0.3em 0 1em 0.3em;
-}
-
-#posts li, #tweets li {
-  list-style-type: none;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
   padding: 0;
 }
 
-/* Source: http://www.positioniseverything.net/easyclearing.html */
-.clearfix:after {
-  content: "."; 
-  display: block; 
-  height: 0; 
-  clear: both; 
-  visibility: hidden;
+input, select {
+  vertical-align: middle;
 }
 
-.clearfix {display: inline-table;}
+/* blog --------------------------------------------------------------------- */
 
-/* Hides from IE-mac \*/
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
-/* End hide from IE-mac */
+.menu,
+#content {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 50em;
+}
+
+#primary {
+  margin: 0;
+}
+
+#main {
+  display: block;
+  clear: both;
+}
+
+/* navigation --------------------------------------------------------------- */
+
+#navigation {
+  display: block;
+  float: left;
+  margin: 0 auto 2em auto;
+  width: 100%;
+  background: #ccc;
+}
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+#navigation li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+}
+#navigation a {
+  display: block;
+  line-height: 2em;
+  padding: 0 1em;
+  text-decoration: none;
+  color: black;
+}
+#navigation li:hover > a, #navigation a.current {
+  background: #333;
+  color: #fff;
+}
+
+/* socialmenu --------------------------------------------------------------- */
+
+#socialmenu ul {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 7em;
+  left: 0;
+  list-style: none;
+  z-index: 9999;
+}
+#socialmenu ul li {
+  float:top;
+}
+#socialmenu ul li a {
+  display: block;
+  margin-left: -2em;
+  width: 32px;
+  height: 32px;
+  background-color:#ccc;
+  background-repeat:no-repeat;
+  background-position:center center;
+  border:1px solid #AFAFAF;
+  -moz-border-radius: 0px 10px 10px 0px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  -khtml-border-top-right-radius: 10px;
+  -moz-box-shadow: 0px 3px 2px #ccc;
+  -webkit-box-shadow: 0px 3px 2px #ccc;
+  /*opacity: 0.6;*/
+}
+#socialmenu ul a.rss { background-image: url(http://jweslley.github.com/images/rss.png); }
+#socialmenu ul a.email { background-image: url(http://jweslley.github.com/images/email.png); }
+#socialmenu ul a.twitter { background-image: url(http://jweslley.github.com/images/twitter.png); }
+#socialmenu ul a.github { background-image: url(http://jweslley.github.com/images/github.png); }
+#socialmenu ul a.linkedin { background-image: url(http://jweslley.github.com/images/linkedin.png); }
+#socialmenu ul a.delicious { background-image: url(http://jweslley.github.com/images/delicious.png); }
+
+/* =images TODO
+-------------------------------------------------------------- */
+
+a img {
+  border: none;
+}
+
+/* =comments TODO
+-------------------------------------------------------------- */
+
+#respond input[type=text] {
+  float: left;
+  margin: 0 1em 0 0;
+  width: 60%;
+}
+#respond .comment-form-comment label {
+  display: none;
+}
+#respond textarea {
+  margin: 0 1em 1em 0;
+  float: left;
+  width: 80%;
+}
+#respond .form-allowed-tags {
+  clear: both;
+  width: 80%;
+}
+#respond .form-allowed-tags code {
+  display: block;
+}
+
+/* macro -------------------------------------------------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* blog header -------------------------------------------------------------- */
+#header {
+  background: black;
+  background: black -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #56585b), color-stop(.5, #262728), color-stop(1, black));
+  background: black -moz-linear-gradient(top, #56585b, #262728 50%, black);
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  margin: 0;
+}
+
+#header h1 {
+  color: white;
+  text-align: center;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: .1em
+}
+
+/* post --------------------------------------------------------------------- */
+.post {
+  padding: 2em;
+  background: white;
+  margin-bottom: 3em;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0, .5);
+  -moz-box-shadow:    0 0 5px rgba(0,0,0, .5);
+  -box-shadow:        0 0 5px rgba(0,0,0, .5);
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  font-family: LeagueGothicRegular, helvetica, arial, sans-serif;
+  line-height: 1em;
+  margin-bottom: .25em;
+}
+
+/* post metadata ------------------------------------------------------------ */
+
+.post-meta {
+  padding: 0 0 1em 0;
+  margin:  1em 0;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+.post-meta a {
+  color: #333;
+}
+
+.post-meta-label {
+  font-style: italic;
+  font-family: georgia, serif;
+  color: #999;
+}
+
+/* post header -------------------------------------------------------------- */
+.post-header {
+  margin-bottom: 2em;
+}
+
+.post-header h1 {
+  padding: 0;
+  font-size: 3em;
+}
+
+.post-header h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+/* post body ---------------------------------------------------------------- */
+.post-content {
+  font-family: georgia, serif;
+  line-height: 150%;
+  font-size: 125%;
+  text-align: justify;
+}
+
+.post-content h1 { font-size: 3em;   }
+.post-content h2 { font-size: 2em;   }
+.post-content h3 { font-size: 1.75em;}
+.post-content h4 { font-size: 1.5em; }
+.post-content h5 { font-size: 1.25em;}
+.post-content h6 { font-size: 1em;   }
+
+img {
+  max-width: 100%;
+}
+
+code, .highlight {
+  font-family: InconsolataMedium, 'Bitstream Vera Sans Mono', Courier, monospace;
+  border: 1px solid #dedede;
+  background-color:#f8f8ff;
+  line-height: 1.1em;
+  font-size: .8em;
+}
+
+.highlight {
+  padding: .3em;
+  margin-bottom: 1.5em;
+  word-wrap: normal;
+  overflow: auto;
+}
+
+blockquote {
+  margin: 1em;
+  padding: .5em 1em;
+  border-left: 5px solid #fce27c;
+  background-color: #f6ebc1;
+}
+blockquote p {
+  margin: 0;
+}
+
+
+/* post footer -------------------------------------------------------------- */
+.post-footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+}
+
+/* blog footer -------------------------------------------------------------- */
+#footer {
+  margin: 0;
+  padding: 1em;
+  background: black;
+}
+
+.copy {
+  width: 80%;
+  max-width: 50em;
+  color: #dedede;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copy a {
+  color: #3333ff;
+  text-decoration: none;
+}
 

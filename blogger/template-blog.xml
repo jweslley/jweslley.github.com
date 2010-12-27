@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Jonhnny Weslley
+URL:      *.jonhnnyweslley.net
+Date:     27 May 2010
+----------------------------------------------- */
+]]></b:skin>
+
+<link href='http://jweslley.github.com/css/cse.css' rel='stylesheet' type='text/css'/>
+<link href='http://jweslley.github.com/css/osx.css' media='screen' rel='stylesheet' type='text/css'/>
+<link href='http://jweslley.github.com/css/default.css' media='screen' rel='stylesheet' type='text/css'/>
+<link href='http://jweslley.github.com/css/syntax.css' media='screen' rel='stylesheet' type='text/css'/>
+
+<script src='http://jweslley.github.com/js/jquery.js' type='text/javascript'/>
+<script src='http://jweslley.github.com/js/jquery.simplemodal.js' type='text/javascript'/>
+<script src='http://jweslley.github.com/js/osx.js' type='text/javascript'/>
+</head>
+<body>
+
+<!-- header -->
+<div id='header'>
+  <div id='cse'>Loading</div>
+  <h1><a href='/'>Jonhnny Weslley</a></h1>
+  <div id='navigation'>
+    <a href='http://www.jonhnnyweslley.net' title='Jonhnny Weslley&apos;s Home Page'>Home</a>  
+    <span>Blog</span>  
+    <a href='http://jweslley.github.com/' title='Jonhnny Weslley&apos;s OpenSource Projects'>Projects</a>  
+    <a class='osx' href='#' rel='me' title='About the author'>About</a>
+  </div>
+</div>
+<!-- end of header -->
+
+<!-- about modal content -->
+<div id='osx-modal-content'>
+
+  <div id='osx-modal-title'>About me</div>
+
+  <div class='close'><a class='simplemodal-close' href='#'>x</a></div>
+
+  <div id='osx-modal-data'>
+
+<img alt='Jonhnny Weslley' height='80' src='http://www.gravatar.com/avatar/1b70347c9182934213b3262851b60fc1.png' style='float: right;' title='Jonhnny Weslley' width='80'/>
+<h3>About The Author</h3>
+
+<p>
+My name is Jonhnny Weslley. At the time of writing I&#8217;m twenty-three. I&#8217;ve lived in Campina Grande, Brazil, since 2008. Previously, I lived for most of my life in Caxias, Brazil.
+</p>
+
+<h3>Research</h3>
+<p>
+I am M.Sc. candidate in the <a href='http://www.ufcg.edu.br/'>Federal University of Campina Grande</a>, Brazil, working as research assistant with <a href='http://fubica.lsd.ufcg.edu.br/'>Francisco Brasileiro</a> in the <a href='http://www.lsd.ufcg.edu.br/'>Distributed Systems Laboratory</a>. My current research concentrates on the design and implementation of the distributed file system <a href='http://www.lsd.ufcg.edu.br/beefs/'>BeeFS</a> which focuses on the specific setting of corporate desktop networks, while remaining flexible to add easily new machines to a running system. Previously, I have focused on challenges in implementation of <a href='http://www.hpl.hp.com/personal/Sung-Ju_Lee/abstracts/papers/gp2pc2005.pdf'>Nodewiz</a>&#39;s improvements. Nodewiz is a scalable peer-to-peer and fault-tolerant resource and service discovery for overlay networks and grids that supports multi-attribute and range queries.
+</p>
+<p>
+My research interests include parallel programming, MapReduce, distributed data storage and distributed file systems.
+</p>
+<p>
+Feel free to <a href='http://www.google.com/profiles/jonhnnyweslley/contactme?continue=http://www.google.com/profiles/jonhnnyweslley'>contact me</a>.
+</p>
+    <p><button class='simplemodal-close'>Close</button> <span>(or press ESC or click the overlay)</span></p>
+
+  </div>
+
+</div>
+<!-- end of about modal content -->
+
+<!-- content -->
+<div class='rounded-corners clearfix' id='content'>
+  <!-- main -->
+  <b:section class='main' id='main' showaddelement='yes'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/>
+</b:section>
+  <!-- end of main -->
+</div>
+<!-- end of content -->
+
+<!-- sidebar -->
+<div class='sidebar rounded-corners' id='sidebar'> 
+  <h2>Subscribe</h2>
+  <ul>
+    <li class='icon rss'><a href='http://feeds2.feedburner.com/JonhnnyWeslley'>Subscribe via RSS</a></li>
+    <li class='icon email'><a href='http://feedburner.google.com/fb/a/mailverify?uri=JonhnnyWeslley'>Subscribe via E-mail</a></li>
+  </ul>
+
+  <h2>Links</h2>
+  <ul>
+    <li class='icon twitter'><a href='http://twitter.com/jweslley'>Twitter</a></li>
+    <li class='icon linkedin'><a href='http://www.linkedin.com/in/jweslley'>LinkedIn</a></li>
+    <li class='icon delicious'><a href='http://delicious.com/jonhnnyweslley'>Bookmarks</a></li>
+    <li class='icon github'><a href='http://github.com/jweslley'>GitHub</a></li>
+  </ul>
+</div>
+<!-- end of sidebar -->
+
+<b:section class='sidebar rounded-corners' id='recentposts' preferred='yes'>
+<b:widget id='Gadget1' locked='false' title='Recent Posts' type='Gadget'/>
+<b:widget id='BlogArchive2' locked='false' title='Archives' type='BlogArchive'/>
+</b:section>
+
+<div id='footer'>
+<p> 2010 <a href='http://jonhnnyweslley.net'>Jonhnny Weslley</a>. All Rights Reserved.</p>
+</div>
+
+<!-- AddThis Clickback Analytics -->
+<script type='text/javascript'>
+var addthis_config =
+{
+    data_track_linkback: true,
+    services_compact: &#39;email, delicious, dzone, facebook, googlebuzz, googlereader, twitter, more&#39;
+}
+</script>
+<!-- AddThis Clickback Analytics -->
+
+<!-- Custom Search Engine -->
+<script src='http://www.google.com/jsapi' type='text/javascript'/>
+<script type='text/javascript'>
+  google.load(&#39;search&#39;, &#39;1&#39;, {language : &#39;en&#39;});
+  google.setOnLoadCallback(function(){
+    var customSearchControl = new google.search.CustomSearchControl(&#39;009536027870159905177:4sfyeliac5i&#39;);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw(&#39;cse&#39;);
+  }, true);
+</script>
+<!-- end of Custom Search Engine -->
+
+<!-- Google Analytics -->
+<script type='text/javascript'>
+var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
+document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
+</script>
+<script type='text/javascript'>
+try {
+var pageTracker = _gat._getTracker(&quot;UA-9232216-1&quot;);
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+<!-- end of Google Analytics -->
+</html>

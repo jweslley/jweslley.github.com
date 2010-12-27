@@ -63,7 +63,7 @@ Date:     27 May 2010
 <!-- end of content -->
 
 <!-- sidebar -->
-<div id="sidebar" class="sidebar rounded-corners"> 
+<div id="sidebar" class="sidebar rounded-corners">
 	<h2>Subscribe</h2>
 	<ul>
     <li class="icon rss"><a href="http://feeds2.feedburner.com/RaciocinioLateralBlogSpot">Assine via RSS</a></li>
@@ -124,3 +124,4 @@ pageTracker._trackPageview();
 </body>
 <!-- end of Google Analytics -->
 </html>
+

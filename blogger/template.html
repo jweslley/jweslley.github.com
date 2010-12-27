@@ -9,19 +9,11 @@
     <meta name="keywords" content="jonhnny weslley, research, distributed, blog, java, scala, ruby, programming" />
     <meta name="gleebox-default-selector" content="#content a" />
 
-    <link rel="me" href="http://www.jonhnnyweslley.net">
-    <link rel="alternate" href="http://feeds2.feedburner.com/jweslley" title="Jonhnny Weslley" type="application/atom+xml" />
+    {{#preview_stylesheets}}
+    <link rel="stylesheet" href="{{{stylesheet}}}" type="text/css" />
+    {{/preview_stylesheets}}
 
-    <link rel="stylesheet" href="/css/cse.css"     type="text/css"/>
-    <link rel="stylesheet" href="/css/default.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="/css/syntax.css"  type="text/css" media="screen"/>
-
-    <title>
-      Jonhnny Weslley
-      {% if page.title %}
-        / {{ page.title }}
-      {% endif %}
-    </title>
+    <title> {{{title}}} </title>
   </head>
   <body>
     <div id="header">
@@ -29,7 +21,6 @@
         <a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley" rel="home">Jonhnny Weslley</a>
       </h1>
     </div>
-    <!-- TODO div id="cse">Loading</div-->
 
     <div id="navigation">
       <div class="menu">
@@ -54,7 +45,23 @@
     <div id="main">
       <div id="primary">
         <div id="content">
-          {{ content }}
+          <div class="post">
+            <div class="post-header">
+              <h1>{{{title}}}</h1>
+            </div>
+
+            <div class="post-content">
+              {{{content}}}
+            </div>
+
+            <div class="post-footer">
+              <div class="post-meta-label">
+                <span>Tags:</span>
+                {{{tags}}}
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -64,8 +71,6 @@
         Copyright &copy; 2007-2011 <a href="http://www.jonhnnyweslley.net">Jonhnny Weslley</a>. All rights reserved.
       </div>
     </div>
-
-    {% include scripts.html %}
   </body>
 </html>
 

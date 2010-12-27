@@ -1,12 +1,11 @@
 ---
 title: Home page
-layout: default
+layout: page
 ---
 
-Personal
---------
-
 ![Jonhnny Weslley's Avatar](http://www.gravatar.com/avatar/1b70347c9182934213b3262851b60fc1.png)
+
+## Personal
 
 I'm M.Sc. student at [Systems and Computing Department](http://www.dsc.ufcg.edu.br/) at [Federal University of Campina Grande](http://www.ufcg.edu.br/).
 
@@ -15,16 +14,14 @@ My interests include distributed systems (especially, MapReduce and NoSQL), game
 Feel free to [contact me](http://www.google.com/profiles/jonhnnyweslley/contactme?continue=http://www.google.com/profiles/jonhnnyweslley).
 
 
-Research
---------
+## Research
 
 I work as research assistant with [Francisco Brasileiro](http://fubica.lsd.ufcg.edu.br/) in the [Distributed Systems Laboratory](http://www.lsd.ufcg.edu.br/). My research concentrates on the design and implementation of the distributed file system BeeFS, which harnesses the free disk space of desktop machines already deployed in a corporation to build a efficient and scalable storage solution in a cheaper way.
 
 In previous research, I have focused on challenges in implementation of [Nodewiz](http://www.hpl.hp.com/personal/Sung-Ju_Lee/abstracts/papers/gp2pc2005.pdf)'s improvements. Nodewiz is a scalable peer-to-peer and fault-tolerant resource and service discovery for overlay networks and grids that supports multi-attribute and range queries. This work are done jointly with [Lauro Beltrão](http://sites.google.com/site/lbeltrao/).
 
 
-Elsewhere
----------
+## Elsewhere
 
 You can find me on a variety of social web sites; my username is usually “jweslley”. If you’d like to connect with me via a social networking site you can do so at:
 
@@ -43,4 +40,3 @@ I also maintain the following weblogs:
 
 * [My occasionally updated blog](http://blog.jonhnnyweslley.net/)
 * [\{ Raciocínio Lateral \}](http://raciocinio-lateral.jonhnnyweslley.net/) in brazilian portuguese.
-

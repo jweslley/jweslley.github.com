@@ -1,10 +1,7 @@
 ---
 title: Language of the Year (under construction)
-layout: default
+layout: page
 ---
-
-Language of the Year (under construction)
------------------------------------------
 
 * Future - Haskell, Lisp/Clojure
 
