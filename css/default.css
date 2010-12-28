@@ -326,7 +326,7 @@ body {
 .post-content h5 { font-size: 1.25em;}
 .post-content h6 { font-size: 1em;   }
 
-img {
+.post-content img {
   max-width: 100%;
   padding: 6px;
   border-top: 1px solid #ddd;
