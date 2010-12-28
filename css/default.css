@@ -328,6 +328,14 @@ body {
 
 img {
   max-width: 100%;
+  padding: 6px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 code, .highlight {
