@@ -18,6 +18,9 @@ Designer: Jonhnny Weslley
 URL:      *.jonhnnyweslley.net
 Date:     27 Dec 2010
 ----------------------------------------------- */
+#navbar-iframe {
+  display: none !important;
+}
 ]]></b:skin>
 
     <meta name="author" content="Jonhnny Weslley" />
