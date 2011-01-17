@@ -204,25 +204,37 @@ a img {
 /* =comments TODO
 -------------------------------------------------------------- */
 
-#respond input[type=text] {
-  float: left;
-  margin: 0 1em 0 0;
-  width: 60%;
+.comment-author {
+  color: #999;
+  font-style: italic;
+  font-family: georgia, serif;
+  margin-bottom: 0.2em;
 }
-#respond .comment-form-comment label {
-  display: none;
+
+.comment-body {
+  padding: 1em;
+  background: white;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0, .5);
+  -moz-box-shadow:    0 0 5px rgba(0,0,0, .5);
+  -box-shadow:        0 0 5px rgba(0,0,0, .5);
 }
-#respond textarea {
+
+.comment-footer {
+  color: #999;
+  font-style: italic;
+  font-family: georgia, serif;
+  margin-top: 0.2em;
+  margin-bottom: 2em;
+}
+
+.comment-form {
+  width: 80%;
+}
+
+#commentBodyField {
   margin: 0 1em 1em 0;
   float: left;
   width: 80%;
-}
-#respond .form-allowed-tags {
-  clear: both;
-  width: 80%;
-}
-#respond .form-allowed-tags code {
-  display: block;
 }
 
 /* macro -------------------------------------------------------------------- */
