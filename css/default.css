@@ -221,11 +221,11 @@ a img {
 
 .comment-footer {
   color: #999;
-  font-size: 0.5em;
+  font-size: 0.75em;
   font-style: italic;
   font-family: georgia, serif;
   margin-top: 0.2em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .comment-form {
