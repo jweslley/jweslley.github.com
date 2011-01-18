@@ -29,9 +29,9 @@ Once you've setup your system for auto completion you need to take the following
 
 And place it in `/etc/bash_completion.d/sbaz`. Once you've done that the next time you start up your BASH shell you will have sbaz auto completion!
 
-Download snippet code [here][snippet].
+Download the source code [here][source].
 
 [scala]: http://www.scala-lang.org/
 [scala-bazaar]: http://www.scala-lang.org/node/93
 [completion]: http://www.caliban.org/bash/index.shtml#completion
-[snippet]: http://snippets.dzone.com/posts/show/5968
+[source]: http://github.com/jweslley/dotfiles/blob/master/lib/completion/sbaz.bash
