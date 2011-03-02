@@ -6,6 +6,8 @@ TODO
 --------------------------------------------------------
 - reasearch page
 - projects page
+  - create a blogger pointing to http://projects.jonhnnyweslley.net
+  - publish project's list as blog posts. Thus, I can organize them by tags and categories. :D
 - resume page
 
 
