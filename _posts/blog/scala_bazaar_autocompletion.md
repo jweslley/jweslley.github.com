@@ -1,5 +1,5 @@
 title: Guide to Scala Bazaar auto completion using BASH
-tags: bash. linux, scala
+tags: bash, linux, scala
 
 The [Scala Bazaar][scala-bazaar] system, "sbaz" in short, is a system used by [Scala][scala] enthusiasts to share computer files with each other. In particular, it makes it easy to share libraries and applications. In this post, I'll show you how easy it to use one of the nicest facilities of the modern shell, the built in "completion" support, to become more easy to use sbaz in command line.
 
