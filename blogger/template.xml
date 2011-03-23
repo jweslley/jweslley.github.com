@@ -40,67 +40,67 @@ Date:     27 Dec 2010
     </div>
     <!-- TODO div id="cse">Loading</div-->
 
-    <div id="navigation">
-      <div class="menu">
-        <ul>
-          <li><a href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">Home</a></li>
-          <li><a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog" class="current" >Blog</a></li>
-          <li><a href="http://jweslley.github.com" title="Jonhnny Weslley's Projects">Projects</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div id="socialmenu">
+  <div id="navigation">
+    <div class="menu">
       <ul>
-        <li><a href="http://feeds.feedburner.com/RaciocinioLateralBlogSpot" class="rss" title="Subscribe via RSS"></a></li>
-        <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=RaciocinioLateralBlogSpot" class="email" title="Subscribe via E-mail"></a></li>
-        <li><a href="http://twitter.com/jweslley" class="twitter" title="Twitter"></a></li>
-        <li><a href="http://www.linkedin.com/in/jweslley" class="linkedin" title="LinkedIn"></a></li>
-        <li><a href="http://delicious.com/jonhnnyweslley" class="delicious" title="Bookmarks"></a></li>
-        <li><a href="http://github.com/jweslley" class="github" title="GitHub"></a></li>
+        <li><a class="current" href="http://www.jonhnnyweslley.net" title="Jonhnny Weslley's Home Page">Home</a></li>
+        <li><a href="http://blog.jonhnnyweslley.net" title="Jonhnny Weslley's Blog">Blog</a></li>
+        <li><a href="http://projects.jonhnnyweslley.net" title="Jonhnny Weslley's Projects">Projects</a></li>
       </ul>
     </div>
+  </div>
 
-    <div id="main">
-      <div id="primary">
-        <div id="content">
-          <b:section class='main' id='main' showaddelement='yes'>
-	          <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'/>
-          </b:section>
-        </div>
+  <div id="socialmenu">
+    <ul>
+      <li><a href="http://feeds.feedburner.com/RaciocinioLateralBlogSpot" class="rss" title="Subscribe via RSS"></a></li>
+      <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=RaciocinioLateralBlogSpot" class="email" title="Subscribe via E-mail"></a></li>
+      <li><a href="http://twitter.com/jweslley" class="twitter" title="Twitter"></a></li>
+      <li><a href="http://www.linkedin.com/in/jweslley" class="linkedin" title="LinkedIn"></a></li>
+      <li><a href="http://delicious.com/jonhnnyweslley" class="delicious" title="Bookmarks"></a></li>
+      <li><a href="http://github.com/jweslley" class="github" title="GitHub"></a></li>
+    </ul>
+  </div>
+
+  <div id="main">
+    <div id="primary">
+      <div id="content">
+        <b:section class='main' id='main' showaddelement='yes'>
+          <b:widget id='HTML1' locked='false' title='Disqus for Jonhnny Weslley' type='HTML'/>
+          <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'/>
+        </b:section>
       </div>
     </div>
+  </div>
 
-    <div id="footer">
-      <div class="copy">
-        Copyright &copy; 2007-2011 <a href="http://www.jonhnnyweslley.net">Jonhnny Weslley</a>. All rights reserved.
-      </div>
+  <div id="footer">
+    <div class="copy">
+      Copyright &copy; 2007-2011 <a href="http://www.jonhnnyweslley.net">Jonhnny Weslley</a>. All rights reserved.
     </div>
+  </div>
 
-    <!-- Custom Search Engine -->
-    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-    <script type="text/javascript">
-      google.load('search', '1', {language : 'en'});
-      google.setOnLoadCallback(function(){
-        var customSearchControl = new google.search.CustomSearchControl('009536027870159905177:4sfyeliac5i');
-        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-        customSearchControl.draw('cse');
-      }, true);
-    </script>
-    <!-- end of Custom Search Engine -->
+  <!-- Custom Search Engine -->
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript">
+    google.load('search', '1', {language : 'en'});
+    google.setOnLoadCallback(function(){
+    var customSearchControl = new google.search.CustomSearchControl('009536027870159905177:4sfyeliac5i');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+    }, true);
+  </script>
+  <!-- end of Custom Search Engine -->
 
-    <!-- Google Analytics -->
-    <script type='text/javascript'>
-      var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
-      document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
-    </script>
-    <script type='text/javascript'>
-      try {
-      var pageTracker = _gat._getTracker(&quot;UA-8344655-1&quot;);
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-    <!-- end of Google Analytics -->
-  </body>
+  <!-- Google Analytics -->
+  <script type='text/javascript'>
+    var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; : &quot;http://www.&quot;);
+    document.write(unescape(&quot;%3Cscript src=&#39;&quot; + gaJsHost + &quot;google-analytics.com/ga.js&#39; type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;));
+  </script>
+  <script type='text/javascript'>
+    try {
+    var pageTracker = _gat._getTracker(&quot;UA-8344655-1&quot;);
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+  <!-- end of Google Analytics -->
+</body>
 </html>
-

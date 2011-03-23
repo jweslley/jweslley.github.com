@@ -67,59 +67,63 @@
     <div class="post">
       <div class="post-header">
         <b:if cond='data:post.title'>
-          <h1>
-            <b:if cond='data:post.link'>
+          <b:if cond='data:post.link'>
+            <h1 style="font-size: 1.75em;">
               <a expr:href='data:post.link'><data:post.title/></a>
-              <b:else/>
-              <b:if cond='data:post.url'>
-                <b:if cond='data:blog.url != data:post.url'>
+            </h1>
+            <b:else/>
+            <b:if cond='data:post.url'>
+              <b:if cond='data:blog.url != data:post.url'>
+                <h1 style="font-size: 1.75em;">
                   <a expr:href='data:post.url'><data:post.title/></a>
-                  <b:else/>
-                  <data:post.title/>
-                </b:if>
+                </h1>
                 <b:else/>
-                <data:post.title/>
+                <h1><data:post.title/></h1>
               </b:if>
+              <b:else/>
+              <h1><data:post.title/></h1>
             </b:if>
-          </h1>
-        </b:if>
-        <div class="post-meta">
-          <span class="post-meta-label">Posted on </span>
-          <b:if cond='data:post.url'>
-            <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
-              <abbr class='published entry-date' expr:title='data:post.timestampISO8601'><data:post.dateHeader/></abbr></a>
           </b:if>
-
-          <span class='post-icons'>
-            <!-- email post links -->
-            <b:if cond='data:post.emailPostUrl'>
-              <span class='item-action'>
-                <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
-                  <img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
-                </a>
-              </span>
+        </b:if>
+        <b:if cond='data:blog.url == data:post.url'>
+          <div class="post-meta">
+            <span class="post-meta-label">Created at </span>
+            <b:if cond='data:post.url'>
+              <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
+                <abbr class='published entry-date' expr:title='data:post.timestampISO8601'><data:post.dateHeader/></abbr></a>
             </b:if>
 
-            <!-- quickedit pencil -->
-            <b:include data='post' name='postQuickEdit'/>
-          </span>
+            <span class='post-icons'>
+              <!-- email post links -->
+              <b:if cond='data:post.emailPostUrl'>
+                <span class='item-action'>
+                  <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+                    <img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+                  </a>
+                </span>
+              </b:if>
 
-          <div class='post-share-buttons'>
-            <b:if cond='data:post.sharePostUrl'>
-              <b:include data='post' name='shareButtons'/>
-            </b:if>
-          </div>
+              <!-- quickedit pencil -->
+              <b:include data='post' name='postQuickEdit'/>
+            </span>
 
-          <span class='post-comment-link'>
-            <b:if cond='data:blog.pageType != &quot;item&quot;'>
-              <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-                <b:if cond='data:post.allowComments'>
-                  <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+            <div class='post-share-buttons'>
+              <b:if cond='data:post.sharePostUrl'>
+                <b:include data='post' name='shareButtons'/>
+              </b:if>
+            </div>
+
+            <span class='post-comment-link'>
+              <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                  <b:if cond='data:post.allowComments'>
+                    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+                  </b:if>
                 </b:if>
               </b:if>
-            </b:if>
-          </span>
-        </div>
+            </span>
+          </div>
+        </b:if>
       </div>
 
       <div class="post-content">
