@@ -309,6 +309,10 @@ body {
   color: #999;
 }
 
+.post-meta .post-share-buttons {
+  display: none;
+}
+
 /* post header -------------------------------------------------------------- */
 .post-header {
   margin-bottom: 2em;
