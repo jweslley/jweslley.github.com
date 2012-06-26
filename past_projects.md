@@ -3,7 +3,7 @@ title: Past projects
 layout: page
 ---
 
-This page details some of the projects that I have worked on in the past.
+# This page details some of the projects that I have worked on in the past.
 
 * [BeeFS][] is a distributed file system that harnesses the free disk space of desktop machines already deployed in a corporation. Like some special-purpose rack-aware file systems, it uses a hybrid architecture that follows a client-server approach for serving metadata and a peer-to-peer one for serving data. This characteristic allows BeeFS to aggregate the spare space of desktop disks to build a single logical volume on top of which a general purpose fully POSIX-compliant file system is implemented. BeeFS is not only more efficient than the state-of-practice that uses a dedicated server approach, but also cheaper and naturally scalable. Experimental results show that, in average, BeeFS outperforms NFS in 74% for write operations and 30% for read operations in the best case. In the worst case, BeeFS results in a 56% improvement in write operations and 20% for read operations when compared with NFS. Moreover, in all cases, BeeFS improves in at least 30% all metadata operations. Reduced ownership cost is achieved by increasing the utilisation of desktop disks, while sudden increases in the demand for storage, normally caused by the arrival on new users, is usually matched by the extra disk space that is available in the machines allocated to the new users.
 
@@ -25,3 +25,4 @@ This page details some of the projects that I have worked on in the past.
 [comp-arch]: http://sertao3d.wordpress.com/2008/01/29/data-driven-game-development/
 [dig]:       http://sertao3d.wordpress.com/2008/03/30/dependency-injection-in-games
 [crud]:      http://en.wikipedia.org/wiki/CRUD_%28acronym%29
+
