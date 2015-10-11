@@ -1,3 +1,4 @@
+---
 title: Escape from Zurg
 tags: scala
 ---
