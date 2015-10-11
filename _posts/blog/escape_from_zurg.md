@@ -1,6 +1,7 @@
 ---
 title: Escape from Zurg
-tags: scala
+tags:
+  - scala
 ---
 
 A long time ago, I got fascinated with the [Zurg riddle][zurg-riddle]. Aka [Escape from Zurg][escape-zurg], the Zurg riddle is a puzzle (featuring characters from the movie [Toy Story](http://en.wikipedia.org/wiki/Toy_Story)) which has been used to teach students Logic Programming. Recently, Sam Halliday from the [Javablog](http://javablog.co.uk/) wrote a blog post with a [Java implementation][java-zurg], and Paul Butcher from the [Texperts](http://texperts.com/) wrote another blog post with a [Ruby implementation][ruby-zurg] of [Escape from Zurg][escape-zurg]. Others implementations can to be find [here][others-zurg]. However it wasn't long before I got the craving to write a [Scala](http://www.scala-lang.org/) version. The idea is not to solve this specific problem, but to use it to show some Scala features.
