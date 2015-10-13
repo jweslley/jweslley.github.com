@@ -27,6 +27,7 @@
 
   <title>Jonhnny Weslley's Blog</title>
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium' rel='stylesheet' type='text/css'>
   <link href="assets/bootstrap.css" rel="stylesheet">
   <link href="assets/blog.css" rel="stylesheet">
@@ -55,7 +56,11 @@
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
-            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+            <div class="blog-post-meta">
+							Posted on <a rel="bookmark" expr:href='data:post.url'>
+								<time class='published entry-date' expr:title='data:post.timestampISO8601'> March 02, 2011 </time>
+
+						</div>
 
             <p>This blog post shows a few different types of content 
 that's supported and styled with Bootstrap. Basic typography, images, 
@@ -154,28 +159,21 @@ fermentum massa justo sit amet risus.</p>
           </div>
           <div class="sidebar-module">
             <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
+						<select id="BlogArchive1_ArchiveMenu" class="c-select form-control">
+							<option value="">Archives</option>
+							<option value="http://projects.jonhnnyweslley.net/2011_03_01_archive.html">Mar 2011 (1)</option>
+							<option value="http://projects.jonhnnyweslley.net/2011_01_01_archive.html">Jan 2011 (1)</option>
+							<option value="http://projects.jonhnnyweslley.net/2010_05_01_archive.html">May 2010 (1)</option>
+							<option value="http://projects.jonhnnyweslley.net/2008_08_01_archive.html">Aug 2008 (1)</option>
+						</select>
           </div>
           <div class="sidebar-module">
             <h4>Elsewhere</h4>
             <ol class="list-unstyled">
-              <li><a href="http://github.com/jweslley">GitHub</a></li>
-              <li><a href="http://linkedin.com/in/jweslley">LinkedIn</a></li>
-              <li><a href="http://twitter.com/jweslley">Twitter</a></li>
-              <li><a href="http://fb.com/jweslley">Facebook</a></li>
+              <li><a href="http://github.com/jweslley"><i class="fa fa-github"></i> GitHub</a></li>
+              <li><a href="http://linkedin.com/in/jweslley"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="http://twitter.com/jweslley"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="http://fb.com/jweslley"><i class="fa fa-facebook-official"></i> Facebook</a></li>
             </ol>
           </div>
         </aside><!-- /.blog-sidebar -->

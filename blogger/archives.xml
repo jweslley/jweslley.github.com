@@ -1,0 +1,18 @@
+<b:section class='sidebar-archives' id='sidebar-archives' showaddelement='yes'>
+	<b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
+		<b:includable id='main'>
+			<b:if cond='data:title != &quot;&quot;'>
+				<h4><data:title/></h4>
+			</b:if>
+			<b:include data='data' name='menu'/>
+		</b:includable>
+		<b:includable id='menu' var='data'>
+			<select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+				<option value=''><data:title/></option>
+				<b:loop values='data:data' var='i'>
+					<option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+				</b:loop>
+			</select>
+		</b:includable>
+	</b:widget>
+</b:section>
