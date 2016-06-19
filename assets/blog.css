@@ -42,6 +42,11 @@ header.container {
   padding-bottom: 1.25rem;
 }
 
+ol.breadcrumb {
+  padding-left: 0px;
+  background-color: white;
+}
+
 /* Pagination */
 .pager {
   margin-bottom: 4rem;
