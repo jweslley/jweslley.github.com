@@ -39,26 +39,32 @@
 
 <body>
 
-    <section class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link" href="#">Jonhnny Weslley</a>
-          <a class="nav-link active" href="#">Blog</a>
-        </nav>
-      </div>
-    </section>
+    <header class="container">
+      <h4>
+      <ol class="breadcrumb" style="padding-left: 0px">
+        <li>
+          <a class=" " href="#">Jonhnny Weslley</a>
+        </li>
+        <li class="active">
+          Blog
+        </li>
+      </ol>
+      </h4>
+    </header>
 
     <div class="container">
 
       <div class="row">
 
-        <main class="col-sm-8 blog-main">
+        <main class="col-sm-12 blog-main">
 
-          <div class="blog-post">
+          <article class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
             <div class="blog-post-meta">
-							Posted on <a rel="bookmark" expr:href='data:post.url'>
-								<time class='published entry-date' expr:title='data:post.timestampISO8601'> March 02, 2011 </time>
+              <time class='published entry-date' expr:title='data:post.timestampISO8601'> March 02, 2011 </time>
+              on
+                <a href="">scala</a>,
+                <a href="">cast</a>
 
 						</div>
 
@@ -85,6 +91,7 @@ consectetur ac, vestibulum at eros.</p>
             <p>Aenean lacinia bibendum nulla sed consectetur. Etiam 
 porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac 
 cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <iframe src="https://player.vimeo.com/video/1709559" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" height="400px" width="100%" class="vimeo-video"></iframe>
             <h3>Sub-heading</h3>
             <p>Cum sociis natoque penatibus et magnis dis parturient 
 montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed 
@@ -103,11 +110,32 @@ fermentum massa justo sit amet risus.</p>
               <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
             </ol>
             <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-          </div><!-- /.blog-post -->
+            <p>
+<div class="highlight"><pre><span class="c">#!/bin/bash</span>
 
-          <div class="blog-post">
+_sbaz_complete<span class="o">()</span>
+<span class="o">{</span>
+  <span class="nb">local </span>cur commands
+
+  <span class="nv">COMPREPLY</span><span class="o">=()</span>
+  <span class="nv">cur</span><span class="o">=</span><span class="k">${</span><span class="nv">COMP_WORDS</span><span class="p">[COMP_CWORD]</span><span class="k">}</span>
+
+  <span class="nv">commands</span><span class="o">=</span><span class="s1">&#39;available compact help install installed keycreate keyforget keyknown</span>
+<span class="s1">  keyremember keyremoteknown keyrevoke pack remove retract setuniverse setup share show</span>
+<span class="s1">  showuniverse update packages upgrade&#39;</span>
+  <span class="nv">cur</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$cur</span> | sed <span class="s1">&#39;s/\\\\//g&#39;</span><span class="sb">`</span>
+
+  <span class="nv">COMPREPLY</span><span class="o">=(</span><span class="k">$(</span><span class="nb">compgen</span> -W <span class="s2">&quot;${commands}&quot;</span> <span class="k">${</span><span class="nv">cur</span><span class="k">}</span> | sed <span class="s1">&#39;s/\\\\//g&#39;</span><span class="k">)</span> <span class="o">)</span>
+<span class="o">}</span>
+
+<span class="nb">complete</span> -F _sbaz_complete -o filenames sbaz
+</pre></div>
+            </p>
+          </article><!-- /.blog-post -->
+
+          <article class="blog-post">
             <h2 class="blog-post-title">Another blog post</h2>
-            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+            <p class="blog-post-meta">December 23, 2013 </p>
 
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>,
  nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem 
@@ -116,16 +144,17 @@ lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
             <blockquote>
               <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+              To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd></p>
             <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus 
 dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor 
 ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac 
 consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
+          </article><!-- /.blog-post -->
 
-          <div class="blog-post">
+          <article class="blog-post">
             <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+            <p class="blog-post-meta">December 14, 2013</p>
 
             <p>Cum sociis natoque penatibus et magnis dis parturient 
 montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed 
@@ -139,18 +168,18 @@ fermentum massa justo sit amet risus.</p>
             </ul>
             <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
             <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
+          </article><!-- /.blog-post -->
 
           <nav>
             <ul class="pager">
-              <li><a href="#">Older</a></li>
-              <li class="disabled"><a href="#">Newer</a></li>
+              <li class="pager-prev"><a href="#">Older</a></li>
+              <li class="pager-next disabled"><a href="#">Newer</a></li>
             </ul>
           </nav>
 
         </main><!-- /.blog-main -->
 
-        <aside class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <!--aside class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
             <p>
@@ -176,7 +205,7 @@ fermentum massa justo sit amet risus.</p>
               <li><a href="http://fb.com/jweslley"><i class="fa fa-facebook-official"></i> Facebook</a></li>
             </ol>
           </div>
-        </aside><!-- /.blog-sidebar -->
+        </aside--><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
 

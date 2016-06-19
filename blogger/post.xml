@@ -42,9 +42,7 @@
       </div>
 
       <div class="blog-post-meta">
-        Posted on <a rel="bookmark" expr:href='data:post.url'>
-          <time class='published entry-date' expr:title='data:post.timestampISO8601'><data:post.dateHeader/></time>
-        </a>
+        <time class='published entry-date' expr:title='data:post.timestampISO8601'><data:post.dateHeader/></time>
       </div>
 
       <div class="blog-post-content">
