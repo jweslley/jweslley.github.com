@@ -29,6 +29,12 @@ code, kbd, pre, samp {
   font-family: "Inconsolata",Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
+pre {
+  padding: 16px;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+}
+
 
 /*
  * Override Bootstrap's default container.
