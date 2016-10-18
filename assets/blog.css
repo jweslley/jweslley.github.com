@@ -93,6 +93,10 @@ ol.breadcrumb {
   color: #999;
 }
 
+.blog-post-content h2, .blog-post-content h3 {
+  .margin-top: 1.5rem;
+}
+
 
 /*
  * Footer
