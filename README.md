@@ -1,6 +1,6 @@
 ## About
 
-All posts I have written for [my](http://blog.jonhnnyweslley.net) [blogs](http://raciocinio-lateral.jonhnnyweslley.net).
+Visit [my blog](http://blog.jonhnnyweslley.net).
 
 ## License
 
